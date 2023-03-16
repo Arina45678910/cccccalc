@@ -16,17 +16,14 @@ body {
     max-width: 400px;
 }
 
-/*.wrapper {
-    background-image: url(img/dudko.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-
-}*/
 
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(img/фооон.jpg) no-repeat center / cover;
+    height: 100vh;
+    
 }
 
 .key {
@@ -34,12 +31,16 @@ body {
     height: 50px;
     color: blueviolet;
     font-size: 20px;
+    background-color: black;
 
 }
 
 #display {
     width: 100%;
     color: blue;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
 
 }
 
@@ -47,4 +48,9 @@ body {
     width: 100%;
     color: blueviolet;
     font-size: 20px;
+    background-color: black;
+}
+
+.keyboard{
+    background-color: blueviolet;
 }
